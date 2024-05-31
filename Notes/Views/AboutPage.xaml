@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Notes.Models"
+             x:Class="Notes.Views.AboutPage">
+    <ContentPage.BindingContext>
+        <models:About />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <Frame CornerRadius="100" IsClippedToBounds="True" HeightRequest="100" WidthRequest="100" Padding="0">
+            <Image Source="mi_foto.jpg" Aspect="AspectFill"
+            />
+            
+        </Frame>
+
+        <Label FontSize="22" FontAttributes="Bold" Text="{Binding Nombre}" HorizontalOptions="CenterAndExpand"/>
+        <Label Text="{Binding Descripcion}" HorizontalOptions="Center"/>
+        
+    </VerticalStackLayout>
+
+
+</ContentPage>
