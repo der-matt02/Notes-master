@@ -8,7 +8,7 @@
     </ContentPage.BindingContext>
     <VerticalStackLayout Spacing="10" Margin="10">
         <Frame CornerRadius="100" IsClippedToBounds="True" HeightRequest="100" WidthRequest="100" Padding="0">
-            <Image Source="mi_foto.jpg" Aspect="AspectFill"
+            <Image Source="WIN_20240530_21_39_39_Pro" Aspect="AspectFill"
             />
             
         </Frame>
